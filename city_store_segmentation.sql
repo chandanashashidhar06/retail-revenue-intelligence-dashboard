@@ -1,0 +1,1 @@
+-- SQL queries for city-wise and store-type-wise segmentation analysis
