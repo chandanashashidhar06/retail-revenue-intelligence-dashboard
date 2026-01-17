@@ -42,3 +42,17 @@ Contains segmentation and contribution analysis for:
 - Revenue contribution by Store Type  
 
 These queries support the **Contribution Analysis** visuals in the dashboard.
+
+## Connection to Power BI Dashboard
+
+The results of these SQL queries were used as the data foundation for a three-page Power BI dashboard:
+
+1. **Executive Overview** – Overall revenue, AOV, and discount dependency KPIs  
+2. **Revenue Leakage Analysis** – City-wise and Store-Type-wise discount dependency and contribution  
+3. **Growth Intelligence** – Trend comparison of Total, Discounted, and Non-Discounted Revenue over time  
+
+The dashboard visualizes the outputs of these SQL queries using DAX measures and interactive filters to enable business users to:
+
+- Identify regions and store formats with high promotion dependence  
+- Distinguish between organic growth and promotion-driven growth  
+- Make data-driven pricing and revenue strategy decisions
